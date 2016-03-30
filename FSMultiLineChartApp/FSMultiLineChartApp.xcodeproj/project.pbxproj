@@ -15,6 +15,8 @@
 		0312B8001CAC0C8A00762961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0312B7FE1CAC0C8A00762961 /* LaunchScreen.storyboard */; };
 		0312B80B1CAC0C8A00762961 /* FSMultiLineChartAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0312B80A1CAC0C8A00762961 /* FSMultiLineChartAppTests.m */; };
 		0312B8161CAC0C8A00762961 /* FSMultiLineChartAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0312B8151CAC0C8A00762961 /* FSMultiLineChartAppUITests.m */; };
+		0312B8281CAC0D3900762961 /* FSMultiLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 0312B8251CAC0D3900762961 /* FSMultiLineChart.m */; };
+		0312B8291CAC0D3900762961 /* UIColor+FSPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 0312B8271CAC0D3900762961 /* UIColor+FSPalette.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0312B8111CAC0C8A00762961 /* FSMultiLineChartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSMultiLineChartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0312B8151CAC0C8A00762961 /* FSMultiLineChartAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSMultiLineChartAppUITests.m; sourceTree = "<group>"; };
 		0312B8171CAC0C8A00762961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0312B8241CAC0D3900762961 /* FSMultiLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMultiLineChart.h; sourceTree = "<group>"; };
+		0312B8251CAC0D3900762961 /* FSMultiLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMultiLineChart.m; sourceTree = "<group>"; };
+		0312B8261CAC0D3900762961 /* UIColor+FSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FSPalette.h"; sourceTree = "<group>"; };
+		0312B8271CAC0D3900762961 /* UIColor+FSPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FSPalette.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		0312B7EF1CAC0C8A00762961 /* FSMultiLineChartApp */ = {
 			isa = PBXGroup;
 			children = (
+				0312B8231CAC0D3900762961 /* FSMultiLineChart */,
 				0312B7F31CAC0C8A00762961 /* AppDelegate.h */,
 				0312B7F41CAC0C8A00762961 /* AppDelegate.m */,
 				0312B7F61CAC0C8A00762961 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				0312B8171CAC0C8A00762961 /* Info.plist */,
 			);
 			path = FSMultiLineChartAppUITests;
+			sourceTree = "<group>";
+		};
+		0312B8231CAC0D3900762961 /* FSMultiLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				0312B8241CAC0D3900762961 /* FSMultiLineChart.h */,
+				0312B8251CAC0D3900762961 /* FSMultiLineChart.m */,
+				0312B8261CAC0D3900762961 /* UIColor+FSPalette.h */,
+				0312B8271CAC0D3900762961 /* UIColor+FSPalette.m */,
+			);
+			path = FSMultiLineChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 				0312B7F81CAC0C8A00762961 /* ViewController.m in Sources */,
 				0312B7F51CAC0C8A00762961 /* AppDelegate.m in Sources */,
 				0312B7F21CAC0C8A00762961 /* main.m in Sources */,
+				0312B8281CAC0D3900762961 /* FSMultiLineChart.m in Sources */,
+				0312B8291CAC0D3900762961 /* UIColor+FSPalette.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
