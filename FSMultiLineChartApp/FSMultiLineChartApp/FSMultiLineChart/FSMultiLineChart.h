@@ -6,7 +6,12 @@
 //  Copyright (c) 2015 Erik. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+
+
+#import  <UIKit/UIKit.h>
+
+// Multiple Line Chart
+// Data Array + Color of Line Array
 
 @interface FSMultiLineChart : UIView
 
